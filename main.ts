@@ -4,7 +4,7 @@ input.onButtonPressed(Button.A, function () {
         "Battery 75%+, ~ 1x1=1 degrees"
         )
         basic.showLeds(`
-            # . . . .
+            . # . . .
             . . . . .
             . . . . .
             . . . . .
@@ -25,8 +25,8 @@ input.onButtonPressed(Button.A, function () {
         "Battery 75%+, ~ 2x1=2 degrees"
         )
         basic.showLeds(`
-            # # . . .
-            . . . . .
+            . # . . .
+            . # . . .
             . . . . .
             . . . . .
             . . . . .
@@ -46,9 +46,9 @@ input.onButtonPressed(Button.A, function () {
         "Battery 75%+, ~ 3x1=3 degrees"
         )
         basic.showLeds(`
-            # # # . .
-            . . . . .
-            . . . . .
+            . # . . .
+            . # . . .
+            . # . . .
             . . . . .
             . . . . .
             `)
@@ -67,10 +67,10 @@ input.onButtonPressed(Button.A, function () {
         "Battery 75%+, ~ 4x1=4 degrees"
         )
         basic.showLeds(`
-            # # # # .
-            . . . . .
-            . . . . .
-            . . . . .
+            . # . . .
+            . # . . .
+            . # . . .
+            . # . . .
             . . . . .
             `)
         quest_Motors.quest_Set_Turn_WithTimer_Func(
@@ -90,9 +90,9 @@ input.onButtonPressed(Button.AB, function () {
         "Battery 75%+, ~ 1x45=45 degrees"
         )
         basic.showLeds(`
-            # . . . .
-            # . . . .
-            # . . . .
+            . # # # .
+            . . . . .
+            . . . . .
             . . . . .
             . . . . .
             `)
@@ -111,9 +111,9 @@ input.onButtonPressed(Button.AB, function () {
         "Battery 75%+, ~ 2x45=90 degrees"
         )
         basic.showLeds(`
-            # # . . .
-            # # . . .
-            # # . . .
+            . # # # .
+            . # # # .
+            . . . . .
             . . . . .
             . . . . .
             `)
@@ -132,9 +132,9 @@ input.onButtonPressed(Button.AB, function () {
         "Battery 75%+, ~ 3x45=135 degrees"
         )
         basic.showLeds(`
-            # # # . .
-            # # # . .
-            # # # . .
+            . # # # .
+            . # # # .
+            . # # # .
             . . . . .
             . . . . .
             `)
@@ -153,10 +153,10 @@ input.onButtonPressed(Button.AB, function () {
         "Battery 75%+, ~ 4x45=180 degrees"
         )
         basic.showLeds(`
-            # # # # .
-            # # # # .
-            # # # # .
-            . . . . .
+            . # # # .
+            . # # # .
+            . # # # .
+            . # # # .
             . . . . .
             `)
         quest_Motors.quest_Set_Turn_WithTimer_Func(
@@ -174,11 +174,11 @@ input.onButtonPressed(Button.AB, function () {
         "Battery 75%+, ~ 5x45=225 degrees"
         )
         basic.showLeds(`
-            # # # # #
-            # # # # #
-            # # # # #
-            . . . . .
-            . . . . .
+            . # # # .
+            . # # # .
+            . # # # .
+            . # # # .
+            . # # # .
             `)
         quest_Motors.quest_Set_Turn_WithTimer_Func(
         quest_PortGroup_BlueRedBlack_PortIds_Enum.S1_MotorLeft__S0_MotorRight,
@@ -197,8 +197,8 @@ input.onButtonPressed(Button.B, function () {
         "Battery 75%+, ~ 1x5=5 degrees"
         )
         basic.showLeds(`
-            # . . . .
-            # . . . .
+            . # # . .
+            . . . . .
             . . . . .
             . . . . .
             . . . . .
@@ -218,8 +218,8 @@ input.onButtonPressed(Button.B, function () {
         "Battery 75%+, ~ 2x5=10 degrees"
         )
         basic.showLeds(`
-            # # . . .
-            # # . . .
+            . # # . .
+            . # # . .
             . . . . .
             . . . . .
             . . . . .
@@ -239,9 +239,9 @@ input.onButtonPressed(Button.B, function () {
         "Battery 75%+, ~ 4x5=20 degrees"
         )
         basic.showLeds(`
-            # # # . .
-            # # # . .
-            . . . . .
+            . # # . .
+            . # # . .
+            . # # . .
             . . . . .
             . . . . .
             `)
@@ -260,10 +260,10 @@ input.onButtonPressed(Button.B, function () {
         "Battery 75%+, ~ 8x5=40 degrees"
         )
         basic.showLeds(`
-            # # # # .
-            # # # # .
-            . . . . .
-            . . . . .
+            . # # . .
+            . # # . .
+            . # # . .
+            . # # . .
             . . . . .
             `)
         quest_Motors.quest_Set_Turn_WithTimer_Func(
